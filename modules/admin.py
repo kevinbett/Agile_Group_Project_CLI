@@ -23,5 +23,9 @@ class Admin(Users):
 		return {"message": "comment deleted sucesfully"}
 
 
+	def edit_comment(self,name):
+		del self.admin[name]
+		return {"message": "comment editted sucesfully"}
+
 	def view_comment(self):
 		return self.admin

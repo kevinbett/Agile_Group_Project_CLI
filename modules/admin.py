@@ -10,7 +10,7 @@ class Users:
         return {"Message":"User created successfully"}
 
 
-class (users):
+class Admin(users):
 	def __init__(self):
 		self.admin = {}
 

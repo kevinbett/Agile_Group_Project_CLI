@@ -13,10 +13,10 @@ class Users:
 
 class Admin(Users):
     def __init__(self):
-    self.admin = {}
+        self.admin = {}
 
     def add_comment(self,commet):
-    self.admim[name] = commet
+        self.admim[name] = commet
         return {"message": "Comment added sucesfully"}
 
     def delete_comment(self,name):

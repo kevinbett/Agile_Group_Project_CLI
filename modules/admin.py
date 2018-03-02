@@ -1,9 +1,10 @@
 class Users:
-   def __init__(self):
+    def __init__(self):
        self.users = {}
        self.password = password
        self.userType = utype
-   def add_user(self,name,password,userType):
+
+    def add_user(self,name,password,userType):
        self.user[name] = password
        self.user[name].append(password)
        self.user[name].append(userType)
@@ -11,20 +12,21 @@ class Users:
 
 
 class Admin(Users):
-def __init__(self):
-self.admin = {}
+    def __init__(self):
+    self.admin = {}
 
-def add_comment(self,comment):
-self.admim[name] = comment
-return {"message": "Comment added sucesfully"}
+    def add_comment(self,commet):
+    self.admim[name] = commet
+        return {"message": "Comment added sucesfully"}
 
-def delete_comment(self,name):
-del self.admin[name]
-return {"message": "comment deleted sucesfully"}
+    def delete_comment(self,name):
+        del self.admin[name]
+        return {"message": "comment deleted sucesfully"}
 
 
-def view_comment(self):
-return self.admin
+    def view_comment(self):
+        return self.admin
+
   
 
 

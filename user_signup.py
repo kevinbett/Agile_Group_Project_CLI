@@ -1,4 +1,4 @@
-class Register:
+class Users:
     def __init__(self):
         self.users = {}
     def add_user(self,name,password,type):

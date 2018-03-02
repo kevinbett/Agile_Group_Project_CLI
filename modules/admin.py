@@ -10,12 +10,12 @@ class Users:
        return {"Message":"User created successfully"}
 
 
-class Admin(users):
+class Admin(Users):
 def __init__(self):
 self.admin = {}
 
-def add_comment(self,commet):
-self.admim[name] = commet
+def add_comment(self,comment):
+self.admim[name] = comment
 return {"message": "Comment added sucesfully"}
 
 def delete_comment(self,name):

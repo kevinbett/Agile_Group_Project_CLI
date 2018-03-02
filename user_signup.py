@@ -10,5 +10,5 @@ class Users:
         return {"Message":"User created successfully"}
     def get_user(self):
         self.user = user
-        return self.user
+        return user
 

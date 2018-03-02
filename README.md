@@ -18,9 +18,9 @@ Features
 
 3. The admin can perform the following functions:
 
-* Admin is both a User and a Moderator
-* Admins can edit any comments
-* Admins can delete any comments
+   * Admin is both a User and a Moderator
+   * Admins can edit any comments
+   * Admins can delete any comments
  
 4. Comments contain a reference to the User who created it (author)
 
